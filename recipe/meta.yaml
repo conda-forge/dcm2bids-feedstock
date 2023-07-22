@@ -1,5 +1,5 @@
 {% set name = "dcm2bids" %}
-{% set version = "2.1.9" %}
+{% set version = "3.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dcm2bids-{{ version }}.tar.gz
-  sha256: d962bd0a7f1ed200ecb699e8ddb29ff58f09ab2f850a7f37511b79c62189f715
+  sha256: ae69e273969abfd6eaadb6e33298c844eadf0482385019466e796ca0b260a3bd
 
 build:
   number: 0
