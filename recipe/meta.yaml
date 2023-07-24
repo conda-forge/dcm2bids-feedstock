@@ -23,6 +23,7 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - packaging
   run:
     - python >=3.8
 
@@ -33,6 +34,7 @@ test:
     - pip check
   requires:
     - pip
+    - packaging
 
 about:
   home: https://pypi.org/project/dcm2bids/
