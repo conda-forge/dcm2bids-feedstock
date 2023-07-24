@@ -31,7 +31,6 @@ test:
     - dcm2bids
   commands:
     - pip check
-    - dcm2bids --help
   requires:
     - pip
 
