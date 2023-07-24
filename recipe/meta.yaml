@@ -32,6 +32,9 @@ test:
     - dcm2bids
   commands:
     - pip check
+    - dcm2bids --help
+    - dcm2bids_helper --help
+    - dcm2bids_scaffold --help
   requires:
     - pip
     - packaging
