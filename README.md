@@ -1,11 +1,11 @@
-About dcm2bids
-==============
+About dcm2bids-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dcm2bids-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/dcm2bids/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dcm2bids-feedstock/blob/main/LICENSE.txt)
 
 Summary: Reorganising NIfTI files from dcm2niix into the Brain Imaging Data Structure
 
