@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dcm2bids-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dcm2bids-{{ version }}.tar.gz
   sha256: f04a6d0fea604901fc71495a91bf78f4acd9cf5d4d9af1d3b51ba47616c02407
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - dcm2bids = dcm2bids.cli.dcm2bids:main
@@ -22,10 +22,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - packaging
   run:
-    - python >=3.8
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -38,6 +38,7 @@ test:
   requires:
     - pip
     - packaging
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/dcm2bids/
