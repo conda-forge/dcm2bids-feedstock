@@ -1,5 +1,5 @@
 {% set name = "dcm2bids" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dcm2bids-{{ version }}.tar.gz
-  sha256: f04a6d0fea604901fc71495a91bf78f4acd9cf5d4d9af1d3b51ba47616c02407
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/dcm2bids-{{ version }}.tar.gz
+  sha256: 8858c394b78c62581b15d37af6a1fa3751cfc1cc0a956088bd6621f0234f449b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - dcm2bids = dcm2bids.cli.dcm2bids:main
