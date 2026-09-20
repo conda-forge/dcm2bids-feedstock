@@ -1,5 +1,5 @@
 {% set name = "dcm2bids" %}
-{% set version = "3.3.0" %}
+{% set version = "3.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/dcm2bids-{{ version }}.tar.gz
-  sha256: 8858c394b78c62581b15d37af6a1fa3751cfc1cc0a956088bd6621f0234f449b
+  sha256: 82b1580c442ed696aa1496a79d8a5ae5fa419acfdd7d784e34c00aa96b2bfd0d
 
 build:
   number: 0
